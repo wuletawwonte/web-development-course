@@ -1,0 +1,19 @@
+{
+  "name": "web-development-course",
+  "version": "1.0.0",
+  "description": "> A website for a web development training event at Arba Minch University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuletawwonte/web-development-course.git"
+  },
+  "author": "Wuletaw Wonte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuletawwonte/web-development-course/issues"
+  },
+  "homepage": "https://github.com/wuletawwonte/web-development-course#readme"
+}
