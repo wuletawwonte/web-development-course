@@ -11,7 +11,6 @@
 
 ## Live Demo
 
-[Live Demo Link](https://wuletawwonte.github.io/my-portfolio)
 
 ## Setup
 
