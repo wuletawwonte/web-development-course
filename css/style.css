@@ -20,8 +20,8 @@ a {
   outline: none;
   border-radius: 8px;
   display: block;
-  padding: 10px; /* some HitBox space */
-  transition: size 0.2s ease-in-out;
+  padding: 10px;
+  transition: size 0.12s ease-in-out;
 }
 
 h1,
