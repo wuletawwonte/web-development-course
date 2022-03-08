@@ -11,10 +11,13 @@ header {
   background: url('../images/icons/hamburger-menu.svg') no-repeat;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 }
 
 /* Hero section styling */
 #hero {
   min-height: 100vh;
-  background: url('/images/bg-mobile.jpg');  
+  background: url('/images/bg-mobile.jpg') no-repeat;
+  background-size: cover;
+  background-position: right top;
 }
