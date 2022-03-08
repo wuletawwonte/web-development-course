@@ -1,13 +1,13 @@
 
 header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding: 20px 25px; 
 }
 
 .toggle-icon {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   background: url('../images/icons/hamburger-menu.svg') no-repeat;
   background-size: cover;
   background-position: center;
@@ -20,4 +20,24 @@ header {
   background: url('/images/bg-mobile.jpg') no-repeat;
   background-size: cover;
   background-position: right top;
+  padding: 20vh 20px 0 20px;
+}
+
+#hero > h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--orange);
+}
+
+.hero-title {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 11vw;
+  text-transform: uppercase;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('../images/bg-text-overlay.png');
+  background-position: top;
+  padding-right: 20px;
 }
