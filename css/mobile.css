@@ -2,12 +2,19 @@
 header {
   position: fixed;
   width: 100%;
-  padding: 0 25px; 
+  padding: 20px 25px; 
 }
 
 .toggle-icon {
-  font-size: 40px;
-  color: var(--black);
-  width:fit-content; 
-  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+  background: url('../images/icons/hamburger-menu.svg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Hero section styling */
+#hero {
+  min-height: 100vh;
+  background: url('/images/bg-mobile.jpg');  
 }
