@@ -1,7 +1,10 @@
 :root {
   --orange: #ec5242;
   --black: #272a31;
+  --black-2: #5d5d5d;
+  --black-3: #484848;
   --gray: #d3d3d3;
+  --gray-2: #f7f7f7;
   --white: #fff;
 }
 
@@ -26,9 +29,15 @@ a {
 
 h1,
 h2 {
-  font-family: 'Cocogoose', sans-serif;
-  color: #172b4d;
   font-size: 40px;
   line-height: 52px;
   font-weight: 700;
+}
+
+.cocogoose {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.orange {
+  color: var(--orange);
 }

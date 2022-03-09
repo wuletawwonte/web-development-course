@@ -1,7 +1,7 @@
 
 header {
   position: absolute;
-  width: 100%;
+  max-width: 100vw;
   padding: 20px 25px; 
 }
 
@@ -24,15 +24,13 @@ header {
 }
 
 #hero > h2 {
-  font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--orange);
 }
 
 .hero-title {
-  font-family: 'Cocogoose', sans-serif;
   font-size: 11vw;
+  line-height: 12vw;
   text-transform: uppercase;
   background-clip: text;
   -webkit-background-clip: text;
@@ -40,4 +38,17 @@ header {
   background-image: url('../images/bg-text-overlay.png');
   background-position: top;
   padding-right: 20px;
+}
+
+.hero-description {
+  margin-top: 20px;
+  color: var(--black-2);
+  background-color: var(--gray-2);
+  border: 2px solid var(--white);
+  padding: 10px;
+}
+
+.hero-date {
+  font-size: 1.5rem;
+  color: var(--black-3);
 }
