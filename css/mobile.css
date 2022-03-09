@@ -16,11 +16,10 @@ header {
 
 /* Hero section styling */
 #hero {
-  min-height: 100vh;
   background: url('/images/bg-mobile.jpg') no-repeat;
   background-size: cover;
   background-position: right top;
-  padding: 20vh 20px 0 20px;
+  padding: 20vh 20px 100px 20px;
 }
 
 #hero > h2 {
@@ -50,5 +49,36 @@ header {
 
 .hero-date {
   font-size: 1.5rem;
+  color: var(--black);
+}
+
+.hero-address {
   color: var(--black-3);
+}
+
+/* The training section styling */
+
+#the-training {
+  background-color: var(--black-4);
+  background-image: url('../images/bg-the-training.png');
+  background-size: 15px;
+  padding: 30px 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.the-training-title {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+.the-training-title::after {
+  content: '';
+  display: flex;
+  background-color: var(--orange);
+  width: 50px;
+  height: 2px;
+  margin: 0 auto;
 }
