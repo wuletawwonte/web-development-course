@@ -62,7 +62,7 @@ header {
   background-color: var(--black-4);
   background-image: url('../images/bg-the-training.png');
   background-size: 15px;
-  padding: 30px 20px 100px 20px;
+  padding: 30px 20px 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,4 +81,53 @@ header {
   width: 50px;
   height: 2px;
   margin: 0 auto;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+}
+
+.events {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.event-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background: #00000066;
+  padding: 10px;
+}
+
+.event-item h2 {
+  color: var(--orange);
+  font-size: 16px;
+  line-height: 20px;
+  width: 30%;
+}
+
+.event-item p {
+  font-size: 12px;
+  column-span: 4;
+  width: 50%;
+}
+
+.event-image {
+  width: 20%;
+  height: 50px;
+}
+
+.register-btn {
+  background-color: var(--orange);
+  border: none;
+  color: var(--white);
+  padding: 20px 30px;
+  margin-top: 40px;
+  font-size: 16px;
+  cursor: pointer;
 }
