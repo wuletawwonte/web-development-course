@@ -150,6 +150,9 @@ header {
 #trainers-container {
   margin-top: 40px;
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
 }
 
 .trainer {
@@ -192,7 +195,7 @@ header {
   height: 1px;
   display: flex;
   width: 20px;
-  background-color: gray;
+  background-color: var(--gray);
   margin-top: 5px;
 }
 
