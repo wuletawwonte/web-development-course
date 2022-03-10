@@ -39,8 +39,7 @@ const trainers = [
 const trainersContainer = document.getElementById('trainers-container');
 
 const trainersTemplate = trainers
-  .map((trainer) => {
-    return `
+  .map((trainer) => `
     <div class="trainer">
       <div class="trainer-photo">
         <img src="${trainer.image}" alt="${trainer.name}">
@@ -51,8 +50,6 @@ const trainersTemplate = trainers
         <p>${trainer.about}</p>
       </div>
     </div>
-  `;
-  })
-  .join('');
+  `).join('');
 
 trainersContainer.innerHTML = trainersTemplate;

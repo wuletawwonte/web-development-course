@@ -1,4 +1,3 @@
-
 header {
   position: absolute;
   max-width: 100vw;
@@ -94,8 +93,6 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 10px;
 }
 
@@ -110,7 +107,6 @@ header {
 
 .event-item p {
   font-size: 12px;
-  column-span: 4;
   width: 50%;
 }
 
@@ -210,7 +206,6 @@ header {
 }
 
 .partners-section-title {
-  font-family: 'Lato', sans-serif;
   font-size: 20px;
   color: var(--white);
   text-align: center;
@@ -219,7 +214,7 @@ header {
 .partners-container {
   margin-top: 40px;
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
