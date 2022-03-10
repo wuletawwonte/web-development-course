@@ -62,6 +62,10 @@ header {
   color: var(--black-3);
 }
 
+.menu {
+  display: none;
+}
+
 /* The training section styling */
 
 #the-training {
