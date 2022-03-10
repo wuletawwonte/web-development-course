@@ -37,7 +37,7 @@ header {
   font-size: 11vw;
   line-height: 12vw;
   text-transform: uppercase;
-  background-clip: text;
+  background-clip: content-box;
   -webkit-background-clip: text;
   color: transparent;
   background-image: url('../images/bg-text-overlay.png');
@@ -103,6 +103,11 @@ header {
   color: white;
   background: #0006;
   padding: 10px;
+}
+
+footer p {
+  font-size: 13px;
+  color: var(--black-3);
 }
 
 .event-item p {
@@ -226,7 +231,3 @@ header {
 
 /* Footer section styling */
 
-footer > p {
-  font-size: 13px;
-  color: var(--black-3);
-}
