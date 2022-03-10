@@ -37,6 +37,13 @@ const trainers = [
 ];
 
 const trainersContainer = document.getElementById('trainers-container');
+const toggleButton = document.querySelector('.toggle-icon');
+const primaryMenu = document.querySelector('.menu');
+
+toggleButton.addEventListener('click', () => {
+  toggleButton.classList.toggle('active');
+  primaryMenu.classList.toggle('active');
+});
 
 const trainersTemplate = trainers
   .map((trainer) => `
