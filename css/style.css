@@ -42,3 +42,11 @@ h2 {
 .orange {
   color: var(--orange);
 }
+
+footer {
+  padding: 40px 15% 40px 15%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}

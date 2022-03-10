@@ -231,3 +231,10 @@ header {
   width: 80px;
   height: 80px;
 }
+
+/* Footer section styling */
+
+footer p {
+  font-size: 13px;
+  color: var(--black-3);
+}
