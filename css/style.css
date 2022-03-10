@@ -1,0 +1,52 @@
+:root {
+  --orange: #ec5242;
+  --black: #272a31;
+  --black-2: #5d5d5d;
+  --black-3: #484848;
+  --black-4: #262930;
+  --gray: #d3d3d3;
+  --gray-2: #f7f7f7;
+  --white: #fff;
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+  border-radius: 8px;
+  display: block;
+  padding: 10px;
+  transition: size 0.12s ease-in-out;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.cocogoose {
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.orange {
+  color: var(--orange);
+}
+
+footer {
+  padding: 40px 15% 40px 15%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
