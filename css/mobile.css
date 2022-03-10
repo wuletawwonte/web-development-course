@@ -161,7 +161,7 @@ header {
 }
 
 .trainer-photo {
-  background: url('/images/bg-text-overlay.png') no-repeat;
+  background: url('/images/black-and-white.jpg') no-repeat;
   background-size: 50px 50px;
   padding: 12px;
   width: 30%;
@@ -171,7 +171,7 @@ header {
 .trainer-photo img {
   width: 90px;
   height: 90px;
-  box-sizing:border-box;
+  object-fit: cover;
 }
 
 .trainer-details {
