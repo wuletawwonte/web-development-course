@@ -57,7 +57,7 @@
   color: black;
 }
 
-.register-btn {
+.register-menu-btn {
   border: 3px solid var(--orange-2);
   padding: 6px 15px;
   background: var(--white);

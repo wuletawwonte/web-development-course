@@ -172,6 +172,12 @@ header {
   align-items: center;
 }
 
+.training-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .trainers-section-title {
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -259,4 +265,9 @@ header {
 .partner-image {
   width: 80px;
   height: 80px;
+}
+
+.partner-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
