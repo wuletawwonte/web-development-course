@@ -1,16 +1,14 @@
-
-
 .desktop-padding {
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 
 .menu {
-  display: fixed;
-  background-color: var(--white);  
+  position: fixed;
+  background-color: var(--white);
   left: 0;
   top: 0;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 
@@ -33,9 +31,102 @@
 
 .secondary-menu a {
   font-size: 12px;
-  color: white;  
+  color: white;
 }
 
 .primary-menu {
-  background-color: var(--black-3);
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px -2px 6px;
+}
+
+.primary-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.primary-menu img {
+  height: 30px;
+}
+
+.primary-menu ul a {
+  color: black;
+}
+
+.register-btn {
+  border: 3px solid var(--orange-2);
+  padding: 6px 15px;
+  background: var(--white);
+}
+
+/* Hero section styling */
+
+#hero {
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.hero-title {
+  font-size: 7vw;
+  line-height: 7vw;
+  background-size: cover;
+}
+
+.hero-description {
+  width: 65%;
+  border: 3px solid var(--white);
+}
+
+/* The training section styling */
+
+#the-training {
+  background-size: 25px 25px;
+}
+
+.events {
+  flex-direction: row;
+  gap: 3px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.event-item {
+  width: 15%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.event-item img {
+  height: 30px;
+  width: 30px;
+}
+
+.event-item h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.event-item p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.register-btn {
+  display: none;
+}
+
+.see-all-program {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
 }
