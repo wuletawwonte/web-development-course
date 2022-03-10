@@ -149,6 +149,7 @@ footer {
 }
 
 .trainers-section-title {
+  text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
 }
@@ -156,14 +157,13 @@ footer {
 #trainers-container {
   margin-top: 40px;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .trainer {
   display: flex;
-  width: 100%;
 }
 
 .trainer-photo {

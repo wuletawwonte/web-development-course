@@ -130,3 +130,9 @@
   text-underline-offset: 2px;
   font-weight: 500;
 }
+
+/* Trainer section styling */
+
+.trainer {
+  width: 48%;
+}
