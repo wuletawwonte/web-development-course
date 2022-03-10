@@ -44,12 +44,18 @@ h2 {
   color: var(--orange);
 }
 
+/* Footer section styling */
+
 footer {
   padding: 40px 15% 40px 15%;
   display: flex;
   gap: 15px;
   align-items: center;
   justify-content: center;
+}
+
+footer p {
+  color: var(--black-3);
 }
 
 /* Hero section styling */
@@ -211,3 +217,28 @@ footer {
   color: var(--black-3);
 }
 
+/* Partner section styling */
+
+#partners {
+  background-color: var(--black-4);
+  padding: 30px 20px 40px 20px;
+}
+
+.partners-section-title {
+  font-size: 20px;
+  color: var(--white);
+  text-align: center;
+}
+
+.partners-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.partner-image {
+  width: 80px;
+  height: 80px;
+}
