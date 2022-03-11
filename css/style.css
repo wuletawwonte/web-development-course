@@ -368,7 +368,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 .past-training-title {
@@ -395,7 +395,7 @@ header {
 .past-training-item {
   width: 100%;
   align-self: stretch;
-  height: 250px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -420,4 +420,9 @@ header {
 .past-training-item p {
   color: white;
   font-size: 13px;
+}
+
+#about-partners {
+  background-color: var(--black-4);
+  padding: 30px 20px 40px 20px;
 }

@@ -139,4 +139,8 @@ footer p {
 
 .past-training-container {
   flex-direction: column;
-} 
+}
+
+.white-footer-logo {
+  display: none;
+}

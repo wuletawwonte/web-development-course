@@ -184,3 +184,20 @@
 .past-training-item {
   width: 28vw;
 }
+
+#about-partners {
+  display: none;
+}
+
+.about-footer {
+  background-color: var(--black-4);
+  color: var(--white);
+}
+
+.about-footer p {
+  color: var(--white);
+}
+
+.black-footer-logo {
+  display: none;
+}
