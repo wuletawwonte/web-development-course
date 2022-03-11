@@ -126,3 +126,7 @@ footer p {
 .about-hero-title.the-underline::after {
   display: none;
 }
+
+.d-logo-description {
+  display: none; 
+}

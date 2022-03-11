@@ -165,3 +165,16 @@
 .about-hero-description {
   width: 50vw;
 }
+
+/* The logo section styling  */
+.m-logo-description {
+  display: none;
+}
+
+.d-logo-description {
+  margin-top: 30px;
+  color: var(--black-3);
+  font-size: 13px;
+  width: 60%;
+  text-align: center;
+}

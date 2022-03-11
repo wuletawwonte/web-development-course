@@ -324,12 +324,39 @@ header {
   text-underline-offset: 3px;
 }
 
+/* The logo section styling  */
+
+.the-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  padding-bottom: 40px;
+}
+
 .the-logo-title {
   margin-top: 25px;
   font-family: 'Lato', sans-serif;
   color: var(--black-4);
   font-size: 20px;
-  line-height: 40px;
+  line-height: 30px;
   text-align: center;
 }
 
+.m-logo-description {
+  margin-top: 30px;
+  color: var(--black-3);
+  font-size: 13px;
+  width: 60%;
+  text-align: center;
+}
+
+.the-logo-container {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px;
+  padding: 30px 10vw;
+}
+
+.the-logo-container img {
+  height: 80px;
+}
