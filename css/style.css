@@ -201,7 +201,6 @@ header {
   background-size: 50px 50px;
   padding: 12px;
   width: 30%;
-  height: calc(width);
 }
 
 .trainer-photo img {

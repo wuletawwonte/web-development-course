@@ -61,6 +61,12 @@
   border: 3px solid var(--orange-2);
   padding: 6px 15px;
   background: var(--white);
+  cursor: pointer;
+}
+
+.register-menu-btn:hover {
+  background-color: var(--orange-2);
+  color: white;
 }
 
 /* Hero section styling */
