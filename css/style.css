@@ -1,5 +1,6 @@
 :root {
   --orange: #ec5242;
+  --orange-2: #ef3f27;
   --black: #272a31;
   --black-2: #5d5d5d;
   --black-3: #484848;
@@ -43,10 +44,229 @@ h2 {
   color: var(--orange);
 }
 
+/* Footer section styling */
+
 footer {
   padding: 40px 15% 40px 15%;
   display: flex;
   gap: 15px;
   align-items: center;
   justify-content: center;
+}
+
+footer p {
+  color: var(--black-3);
+}
+
+/* Header section styling */
+
+header {
+  position: absolute;
+  max-width: 100vw;
+  padding: 20px 25px;
+}
+
+/* Hero section styling */
+
+#hero {
+  background: url('/images/bg-mobile.jpg') no-repeat;
+  background-size: cover;
+  background-position: right top;
+  padding: 20vh 20px 100px 20px;
+}
+
+.event-item h2 {
+  color: var(--orange);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#hero > h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('../images/bg-text-overlay.png');
+  background-position: top;
+}
+
+.hero-description {
+  margin-top: 20px;
+  color: var(--black-2);
+  background-color: var(--gray-2);
+  border: 2px solid var(--white);
+  padding: 10px;
+}
+
+.hero-date {
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
+.hero-address {
+  color: var(--black-3);
+}
+
+/* The training section styling */
+
+#the-training {
+  background-color: var(--black-4);
+  background-image: url('../images/bg-the-training.png');
+  background-size: 15px;
+  padding: 30px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.the-training-title {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.the-underline::after {
+  content: '';
+  display: flex;
+  background-color: var(--orange);
+  width: 50px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.event-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  background: #0006;
+  padding: 10px;
+  outline: none;
+  transition: outline 2s ease-in-out;
+}
+
+.event-item:hover {
+  outline: 1px solid var(--white);
+}
+
+/* Trainers Section styling */
+
+#trainers {
+  padding: 30px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.training-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trainers-section-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+#trainers-container {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.trainer {
+  display: flex;
+}
+
+.trainer-photo {
+  background: url('/images/black-and-white.jpg') no-repeat;
+  background-size: 50px 50px;
+  padding: 12px;
+  width: 30%;
+}
+
+.trainer-photo img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.trainer-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.trainer-details h3 {
+  font-size: 16px;
+}
+
+.trainer-details span {
+  color: var(--orange);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.trainer-details span::after {
+  content: '';
+  height: 1px;
+  display: flex;
+  width: 20px;
+  background-color: var(--gray);
+  margin-top: 5px;
+}
+
+.trainer-details p {
+  margin-top: 8px;
+  font-size: 12px;
+  color: var(--black-3);
+}
+
+/* Partner section styling */
+
+#partners {
+  background-color: var(--black-4);
+  padding: 30px 20px 40px 20px;
+}
+
+.partners-section-title {
+  font-size: 20px;
+  color: var(--white);
+  text-align: center;
+}
+
+.partners-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.partner-image {
+  width: 80px;
+  height: 80px;
+}
+
+.partner-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }

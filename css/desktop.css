@@ -1,3 +1,149 @@
-header {
-  background-color: inherit;
+.desktop-padding {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.menu {
+  position: fixed;
+  background-color: var(--white);
+  left: 0;
+  top: 0;
+  height: 90px;
+  width: 100%;
+}
+
+.secondary-menu {
+  background-color: var(--black);
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.secondary-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.secondary-menu img {
+  width: 13px;
+}
+
+.secondary-menu a {
+  font-size: 12px;
+  color: white;
+}
+
+.primary-menu {
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 6px;
+}
+
+.primary-menu-content {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.primary-menu img {
+  height: 30px;
+}
+
+.primary-menu ul a {
+  color: black;
+}
+
+.register-menu-btn {
+  border: 3px solid var(--orange-2);
+  padding: 6px 15px;
+  background: var(--white);
+  cursor: pointer;
+}
+
+.register-menu-btn:hover {
+  background-color: var(--orange-2);
+  color: white;
+}
+
+/* Hero section styling */
+
+#hero {
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.hero-title {
+  font-size: 7vw;
+  line-height: 7vw;
+  background-size: cover;
+}
+
+.hero-description {
+  width: 65%;
+  border: 3px solid var(--white);
+}
+
+/* The training section styling */
+
+#the-training {
+  background-size: 25px 25px;
+}
+
+.events {
+  flex-direction: row;
+  gap: 3px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.event-item {
+  width: 15%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.event-item img {
+  height: 30px;
+  width: 30px;
+}
+
+.event-item h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.event-item p {
+  text-align: center;
+  font-size: 12px;
+}
+
+.register-btn {
+  display: none;
+}
+
+.see-all-program {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+
+/* Trainer section styling */
+
+.trainer {
+  width: 48%;
 }

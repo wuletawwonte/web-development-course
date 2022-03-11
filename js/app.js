@@ -37,9 +37,17 @@ const trainers = [
 ];
 
 const trainersContainer = document.getElementById('trainers-container');
+const toggleButton = document.querySelector('.toggle-icon');
+const primaryMenu = document.querySelector('.menu');
+
+toggleButton.addEventListener('click', () => {
+  toggleButton.classList.toggle('active');
+  primaryMenu.classList.toggle('active');
+});
 
 const trainersTemplate = trainers
-  .map((trainer) => `
+  .map(
+    (trainer) => `
     <div class="trainer">
       <div class="trainer-photo">
         <img src="${trainer.image}" alt="${trainer.name}">
@@ -50,6 +58,7 @@ const trainersTemplate = trainers
         <p>${trainer.about}</p>
       </div>
     </div>
-  `).join('');
+  `,
+  ).join('');
 
 trainersContainer.innerHTML = trainersTemplate;
