@@ -75,6 +75,12 @@ header {
   padding: 20vh 20px 100px 20px;
 }
 
+.event-item h2 {
+  color: var(--orange);
+  font-size: 16px;
+  line-height: 20px;
+}
+
 #hero > h2 {
   font-size: 1.5rem;
   font-weight: 400;
@@ -155,12 +161,6 @@ header {
 
 .event-item:hover {
   outline: 1px solid var(--white);
-}
-
-.event-item h2 {
-  color: var(--orange);
-  font-size: 16px;
-  line-height: 20px;
 }
 
 /* Trainers Section styling */
