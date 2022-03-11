@@ -130,3 +130,13 @@ footer p {
 .d-logo-description {
   display: none; 
 }
+
+.past-training {
+  align-items: stretch;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.past-training-container {
+  flex-direction: column;
+} 

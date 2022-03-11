@@ -360,3 +360,64 @@ header {
 .the-logo-container img {
   height: 80px;
 }
+
+/* Past training section styling  */
+
+.past-training {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.past-training-title {
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  color: var(--black-4);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.past-training p {
+  color: var(--black-3);
+  text-align: center;
+  width: 60vw;
+  align-self: center;
+}
+
+.past-training-container {
+  display: flex;
+  gap: 20px;
+}
+
+.past-training-item {
+  width: 100%;
+  align-self: stretch;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.past-training-item.aau {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/aau-training.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-training-item.ju {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/ju-training.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-training-item p {
+  color: white;
+  font-size: 13px;
+}

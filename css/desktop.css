@@ -178,3 +178,9 @@
   width: 60%;
   text-align: center;
 }
+
+/* Past training section  */
+
+.past-training-item {
+  width: 28vw;
+}
