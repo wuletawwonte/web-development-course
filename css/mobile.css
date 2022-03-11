@@ -128,7 +128,7 @@ footer p {
 }
 
 .d-logo-description {
-  display: none; 
+  display: none;
 }
 
 .past-training {
@@ -142,5 +142,29 @@ footer p {
 }
 
 .white-footer-logo {
+  display: none;
+}
+
+#more-trainers {
+  align-self: stretch;
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px;
+  padding: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+#more-trainers img {
+  width: 15px;
+  height: 15px;
+}
+
+#more-trainers.hidden {
   display: none;
 }

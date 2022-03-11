@@ -39,13 +39,16 @@ const trainers = [
 const trainersContainer = document.getElementById('trainers-container');
 const toggleButton = document.querySelector('.toggle-icon');
 const primaryMenu = document.querySelector('.menu');
+const moreTrainersBtn = document.getElementById('more-trainers');
+let trainersSelected = trainers.slice(0, 2);
 
 toggleButton.addEventListener('click', () => {
   toggleButton.classList.toggle('active');
   primaryMenu.classList.toggle('active');
 });
 
-const trainersTemplate = trainers
+moreTrainersBtn.addEventListener('click', () => {
+  trainersContainer.innerHTML = trainers
   .map(
     (trainer) => `
     <div class="trainer">
@@ -60,5 +63,21 @@ const trainersTemplate = trainers
     </div>
   `,
   ).join('');
+  moreTrainersBtn.classList.add('hidden');
+});
 
-trainersContainer.innerHTML = trainersTemplate;
+trainersContainer.innerHTML = trainersSelected
+  .map(
+    (trainer) => `
+    <div class="trainer">
+      <div class="trainer-photo">
+        <img src="${trainer.image}" alt="${trainer.name}">
+      </div>
+      <div class="trainer-details">
+        <h3>${trainer.name}</h3>
+        <span>${trainer.position}</span>
+        <p>${trainer.about}</p>
+      </div>
+    </div>
+  `,
+  ).join('');
