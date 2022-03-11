@@ -46,7 +46,8 @@ toggleButton.addEventListener('click', () => {
 });
 
 const trainersTemplate = trainers
-  .map((trainer) => `
+  .map(
+    (trainer) => `
     <div class="trainer">
       <div class="trainer-photo">
         <img src="${trainer.image}" alt="${trainer.name}">
@@ -57,6 +58,8 @@ const trainersTemplate = trainers
         <p>${trainer.about}</p>
       </div>
     </div>
-  `).join('');
+  `
+  )
+  .join('');
 
 trainersContainer.innerHTML = trainersTemplate;
