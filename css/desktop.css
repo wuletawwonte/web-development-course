@@ -43,6 +43,11 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 6px;
 }
 
+.primary-menu-content {
+  display: flex;
+  gap: 20px;
+}
+
 .primary-menu ul {
   list-style: none;
   display: flex;

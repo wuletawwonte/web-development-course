@@ -58,7 +58,7 @@ const trainersTemplate = trainers
         <p>${trainer.about}</p>
       </div>
     </div>
-  `
+  `,
   ).join('');
 
 trainersContainer.innerHTML = trainersTemplate;
