@@ -120,3 +120,56 @@ footer p {
 .see-all-program {
   display: none;
 }
+
+/* About page styling */
+
+.about-hero-title.the-underline::after {
+  display: none;
+}
+
+.d-logo-description {
+  display: none;
+}
+
+.past-training {
+  align-items: stretch;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.past-training-container {
+  flex-direction: column;
+}
+
+.white-footer-logo {
+  display: none;
+}
+
+#more-trainers {
+  align-self: stretch;
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px;
+  padding: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+#more-trainers img {
+  width: 15px;
+  height: 15px;
+}
+
+.hidden-mobile {
+  visibility: hidden;
+  height: 0;
+}
+
+#more-trainers.hidden-more {
+  display: none;
+}

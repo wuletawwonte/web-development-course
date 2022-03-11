@@ -1,6 +1,7 @@
 :root {
   --orange: #ec5242;
   --orange-2: #ef3f27;
+  --orange-3: #f9422a;
   --black: #272a31;
   --black-2: #5d5d5d;
   --black-3: #484848;
@@ -269,4 +270,159 @@ header {
 .partner-image:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+/* About page styling  */
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-hero h3 {
+  font-size: 22px;
+  color: var(--orange-3);
+}
+
+.about-hero-title {
+  text-align: center;
+  color: var(--orange-3);
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+.about-hero-description {
+  margin-top: 20px;
+  color: var(--black-2);
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 6px;
+}
+
+.about-question {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--black-3);
+  gap: 10px;
+}
+
+.about-hero-question {
+  text-align: center;
+  width: 70vw;
+}
+
+.about-hero-email {
+  color: var(--black-4);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* The logo section styling  */
+
+.the-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+  padding-bottom: 40px;
+}
+
+.the-logo-title {
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  color: var(--black-4);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.m-logo-description {
+  margin-top: 30px;
+  color: var(--black-3);
+  font-size: 13px;
+  width: 60%;
+  text-align: center;
+}
+
+.the-logo-container {
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 4px;
+  padding: 30px 10vw;
+}
+
+.the-logo-container img {
+  height: 80px;
+}
+
+/* Past training section styling  */
+
+.past-training {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.past-training-title {
+  margin-top: 25px;
+  font-family: 'Lato', sans-serif;
+  color: var(--black-4);
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.past-training p {
+  color: var(--black-3);
+  text-align: center;
+  width: 60vw;
+  align-self: center;
+}
+
+.past-training-container {
+  display: flex;
+  gap: 20px;
+}
+
+.past-training-item {
+  width: 100%;
+  align-self: stretch;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.past-training-item.aau {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/aau-training.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-training-item.ju {
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/ju-training.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.past-training-item p {
+  color: white;
+  font-size: 13px;
+}
+
+#about-partners {
+  background-color: var(--black-4);
+  padding: 30px 20px 40px 20px;
 }

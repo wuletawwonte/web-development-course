@@ -62,6 +62,10 @@
   color: black;
 }
 
+.primary-menu .menu-active {
+  color: var(--orange-2);
+}
+
 .register-menu-btn {
   border: 3px solid var(--orange-2);
   padding: 6px 15px;
@@ -146,4 +150,58 @@
 
 .trainer {
   width: 48%;
+}
+
+/* About page styling */
+
+.about-question {
+  margin-top: 30px;
+}
+
+.about-hero-title {
+  width: 50vw;
+}
+
+.about-hero-description {
+  width: 50vw;
+}
+
+/* The logo section styling  */
+.m-logo-description {
+  display: none;
+}
+
+.d-logo-description {
+  margin-top: 30px;
+  color: var(--black-3);
+  font-size: 13px;
+  width: 60%;
+  text-align: center;
+}
+
+/* Past training section  */
+
+.past-training-item {
+  width: 28vw;
+}
+
+#about-partners {
+  display: none;
+}
+
+.about-footer {
+  background-color: var(--black-4);
+  color: var(--white);
+}
+
+.about-footer p {
+  color: var(--white);
+}
+
+.black-footer-logo {
+  display: none;
+}
+
+#more-trainers {
+  display: none;
 }

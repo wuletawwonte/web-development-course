@@ -39,16 +39,26 @@ const trainers = [
 const trainersContainer = document.getElementById('trainers-container');
 const toggleButton = document.querySelector('.toggle-icon');
 const primaryMenu = document.querySelector('.menu');
+const moreTrainersBtn = document.querySelector('.more-trainers');
+let hiddenElements;
 
 toggleButton.addEventListener('click', () => {
   toggleButton.classList.toggle('active');
   primaryMenu.classList.toggle('active');
 });
 
-const trainersTemplate = trainers
+moreTrainersBtn.addEventListener('click', () => {
+  hiddenElements = document.querySelectorAll('.hidden-mobile');
+  hiddenElements.forEach((element) => {
+    element.classList.remove('hidden-mobile');
+  });
+  moreTrainersBtn.classList.add('hidden-more');
+});
+
+trainersContainer.innerHTML = trainers
   .map(
-    (trainer) => `
-    <div class="trainer">
+    (trainer, index) => `
+    <div class="trainer ${index > 1 ? 'hidden-mobile' : ''}">
       <div class="trainer-photo">
         <img src="${trainer.image}" alt="${trainer.name}">
       </div>
@@ -60,5 +70,3 @@ const trainersTemplate = trainers
     </div>
   `,
   ).join('');
-
-trainersContainer.innerHTML = trainersTemplate;
