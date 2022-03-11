@@ -47,9 +47,9 @@ toggleButton.addEventListener('click', () => {
   primaryMenu.classList.toggle('active');
 });
 
-moreTrainersBtn.addEventListener('click', (e) => {
+moreTrainersBtn.addEventListener('click', () => {
   hiddenElements = document.querySelectorAll('.hidden-mobile');
-  hiddenElements.forEach(element => {
+  hiddenElements.forEach((element) => {
     element.classList.remove('hidden-mobile');
   });
   moreTrainersBtn.classList.add('hidden-more');
@@ -58,7 +58,7 @@ moreTrainersBtn.addEventListener('click', (e) => {
 trainersContainer.innerHTML = trainers
   .map(
     (trainer, index) => `
-    <div class="trainer ${index > 1 ? 'hidden-mobile': ''}">
+    <div class="trainer ${index > 1 ? 'hidden-mobile' : ''}">
       <div class="trainer-photo">
         <img src="${trainer.image}" alt="${trainer.name}">
       </div>

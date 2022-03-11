@@ -406,15 +406,13 @@ header {
 }
 
 .past-training-item.aau {
-  background: linear-gradient(to top, #ef3f27ba, #f9422aba),
-    url('/images/past-trainings/aau-training.jpg') no-repeat;
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/aau-training.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .past-training-item.ju {
-  background: linear-gradient(to top, #ef3f27ba, #f9422aba),
-    url('/images/past-trainings/ju-training.jpg') no-repeat;
+  background: linear-gradient(to top, #ef3f27ba, #f9422aba), url('/images/past-trainings/ju-training.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
