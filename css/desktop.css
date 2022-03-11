@@ -62,6 +62,10 @@
   color: black;
 }
 
+.primary-menu .menu-active {
+  color: var(--orange-2);
+}
+
 .register-menu-btn {
   border: 3px solid var(--orange-2);
   padding: 6px 15px;
@@ -146,4 +150,18 @@
 
 .trainer {
   width: 48%;
+}
+
+/* About page styling */
+
+.about-question {
+  margin-top: 30px;
+}
+
+.about-hero-title {
+  width: 50vw;
+}
+
+.about-hero-description {
+  width: 50vw;
 }
