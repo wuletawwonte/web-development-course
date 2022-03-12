@@ -10,7 +10,8 @@
 - A little bit of Javascript
 
 ## Live Demo
-
+[Live Demo Link](https://wuletawwonte.github.io/web-development-course)
+![Web Development Course](https://user-images.githubusercontent.com/12524453/157881717-9fae4966-65b1-41a7-92ca-ba04deeed176.png)
 
 ## Setup
 
@@ -39,9 +40,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- README template from [Microverse](https://github.com/microverseinc/readme-template)
+- Linter setup from [Microverse](https://github.com/microverseinc/linters-config/tree/master/html-css)
+- Based on this [beautiful design](<https://www.behance.net/gallery/29845175/CC-Global-Summit-2015>) by [Cindy Shin](<https://www.behance.net/adagio07>). Here is the [Creative Commons License of the design](<https://creativecommons.org/licenses/by-nc/4.0/>). 
 
 ## 📝 License
 

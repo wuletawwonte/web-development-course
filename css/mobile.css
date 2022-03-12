@@ -1,0 +1,175 @@
+.toggle-icon {
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  background: url('../images/icons/hamburger-menu.svg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.toggle-icon.active {
+  position: fixed;
+  background: url('../images/icons/cross-2.svg') no-repeat;
+  background-size: 80%;
+  background-position: center;
+  width: 38px;
+  height: 38px;
+  z-index: 1000;
+}
+
+.menu {
+  display: none;
+}
+
+.menu.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--white);
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 100px;
+}
+
+.primary-menu {
+  align-self: stretch;
+  padding-left: 15vw;
+  margin-top: 20px;
+}
+
+.primary-menu ul,
+.secondary-menu ul {
+  list-style: none;
+}
+
+.primary-menu button {
+  align-self: stretch;
+  justify-self: stretch;
+  background-color: white;
+  width: 60vw;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid var(--orange);
+}
+
+.secondary-menu {
+  align-self: stretch;
+  border-bottom: 1px solid var(--black-2);
+}
+
+.secondary-menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-menu img {
+  width: 15px;
+}
+
+/* Hero section styling */
+
+.hero-title {
+  font-size: 11vw;
+  line-height: 12vw;
+}
+
+/* The training section styling */
+
+footer p {
+  font-size: 13px;
+  color: var(--black-3);
+}
+
+.event-item h2 {
+  width: 30%;
+}
+
+.event-item p {
+  font-size: 12px;
+  width: 50%;
+}
+
+.event-image {
+  width: 20%;
+  height: 50px;
+}
+
+.register-btn {
+  background-color: var(--orange);
+  border: none;
+  color: var(--white);
+  padding: 20px 30px;
+  margin-top: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Lato', sans-serif;
+  justify-self: center;
+}
+
+.see-all-program {
+  display: none;
+}
+
+/* About page styling */
+
+.about-hero-title.the-underline::after {
+  display: none;
+}
+
+.d-logo-description {
+  display: none;
+}
+
+.past-training {
+  align-items: stretch;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.past-training-container {
+  flex-direction: column;
+}
+
+.white-footer-logo {
+  display: none;
+}
+
+#more-trainers {
+  align-self: stretch;
+  width: 100%;
+  border: none;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 3px;
+  padding: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin-top: 10px;
+}
+
+#more-trainers img {
+  width: 15px;
+  height: 15px;
+}
+
+.hidden-mobile {
+  visibility: hidden;
+  height: 0;
+}
+
+#more-trainers.hidden-more {
+  display: none;
+}

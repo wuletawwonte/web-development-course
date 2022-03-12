@@ -1,6 +1,7 @@
 {
   "liveServer.settings.port": 5501,
   "prettier.singleQuote": true,
+  "html.format.wrapLineLength": 200,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
