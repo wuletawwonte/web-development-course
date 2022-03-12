@@ -82,7 +82,7 @@ header {
   line-height: 20px;
 }
 
-#hero > h2 {
+h1 {
   font-size: 1.5rem;
   font-weight: 400;
 }

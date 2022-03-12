@@ -34,6 +34,13 @@ const trainers = [
     about:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
   },
+  {
+    image: './images/trainers/dawit_getachew.jpg',
+    name: 'Dawit Getachew',
+    position: 'Devops Engineer',
+    about:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+  },
 ];
 
 const trainersContainer = document.getElementById('trainers-container');

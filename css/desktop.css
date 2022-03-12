@@ -110,7 +110,9 @@
 }
 
 .event-item {
-  width: 15%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 20%;
   flex-direction: column;
   justify-content: flex-start;
   gap: 5px;
