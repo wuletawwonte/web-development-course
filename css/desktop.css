@@ -126,11 +126,13 @@
 .event-item h2 {
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 18px;
 }
 
 .event-item p {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .register-btn {
