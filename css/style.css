@@ -70,7 +70,7 @@ header {
 /* Hero section styling */
 
 #hero {
-  background: url('/images/bg-mobile.jpg') no-repeat;
+  background: url('../images/bg-mobile.jpg') no-repeat;
   background-size: cover;
   background-position: right top;
   padding: 20vh 20px 100px 20px;
